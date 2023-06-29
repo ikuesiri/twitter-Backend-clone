@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.json())
 app.use("/user", userRoute);
-app.use("/user", tweetRoute);
+app.use("/tweet", tweetRoute);
 
 
 /** Home Route */
